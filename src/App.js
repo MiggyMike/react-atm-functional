@@ -1,12 +1,12 @@
 // NPM modules
-import React from 'react'
+import React from "react";
 
 // Custom Components
-import Account from './components/Account'
+import Account from "./components/Account";
 
 // Resources
-import logo from './ga.png'
-import './styles/App.css'
+import logo from "./ga.png";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -18,9 +18,10 @@ function App() {
         <div id="title">Bank of GA</div>
       </div>
       <Account name="Checking" />
+      <Account name="Savings" />
       <div className="clear"></div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
